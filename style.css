@@ -8,6 +8,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
     @media screen and (max-width: 768px) {
     }
   }
@@ -38,16 +39,20 @@ body{
   }
   .navbar-nav .nav-link:hover {
     color: #E4383E;
+    transition: width 2s ease-in-out;
   }
   .navbar-nav .nav-link:hover::after {
     border-color: #E4383E;
+    transition: width 0.3s ease-in-out;
   }
   @media screen and (max-width: 768px) {
     .navbar-nav .nav-link::after {
         width: 30%; 
     }
-
+  
   }
+
+  
 
   /* text styles */
   #title{
@@ -95,9 +100,16 @@ body{
       
     }
   }
-  /* responsive */
-  @media screen and (max-width: 768px) and (max-height: 1366px) {
-    .container-cust{
-      padding-top: 100px;
+  /* effects */
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
     }
-  }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}

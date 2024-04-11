@@ -1,0 +1,10 @@
+.custom-size{
+    font-size: 60px;
+}
+.card-header, .card-body{
+    background-color: #B4292D;
+}
+
+.btn{
+    background-color: #E4383E;
+}

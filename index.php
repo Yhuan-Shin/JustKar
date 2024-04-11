@@ -1,3 +1,8 @@
+<?php
+    include_once 'admin/functions.php';
+    $routes = include_once 'admin/routes.php';
+    run($_SERVER['REQUEST_URI'], $routes);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +16,8 @@
     <link rel="stylesheet" href="style.css">
     
 </head>
-<body">
+<body>
+   
             <!-- Navbar -->
             
         <nav class="navbar navbar-expand-lg navbar-dark bg-black ">

@@ -1,5 +1,3 @@
-
-
 <?php
 session_start();
 include("database_conn.php");
@@ -32,6 +30,7 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
             mysqli_query($conn, $sql);
             echo"<div class='alert alert-success'>Registered successful!</div>";
             header("Location: login_form.php");
+            exit();
            }
            catch(Exception $e){
                echo "<div class='alert alert-warning'>Already registered!</div>";

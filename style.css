@@ -45,7 +45,6 @@
       font-size: 60px;
       text-shadow: 2px 2px #83C1C0;
       font-weight: bold;
-      -webkit-text-stroke: 2px black;
       @media screen and (max-width: 768px) {
         font-size: 33px;
         
@@ -96,19 +95,4 @@
           opacity: 1;
       }
   }
-  /* mobile view */
-  @media screen and (max-width: 768px) {
-    #title{
-      font-size: 30px;
-      text-decoration: none;
-    }
-    #body{
-      font-size: 15px;
-      text-decoration: none;
-    }
-    #footer{
-      font-size: 15px;
-      text-decoration: none;
-    }
-  }
-  
+ 

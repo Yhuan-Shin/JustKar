@@ -31,7 +31,7 @@
       transition: width 2s ease-in-out;
     } */
     .navbar-nav .nav-link:hover::after {
-      border-color: #E4383E;
+      border-color: #E4383E;    
       transition: width 0.3s ease-in-out;
     }
     @media screen and (max-width: 768px) {
@@ -96,5 +96,19 @@
           opacity: 1;
       }
   }
-  
+  /* mobile view */
+  @media screen and (max-width: 768px) {
+    #title{
+      font-size: 30px;
+      text-decoration: none;
+    }
+    #body{
+      font-size: 15px;
+      text-decoration: none;
+    }
+    #footer{
+      font-size: 15px;
+      text-decoration: none;
+    }
+  }
   

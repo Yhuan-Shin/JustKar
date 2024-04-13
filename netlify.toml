@@ -1,4 +1,0 @@
-[[redirects]]
-  from = "/admin/*"
-  to = "/justkar/admin/:splat"
-  status = 200

@@ -46,9 +46,9 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
                             $_SESSION["loggedin"] = true;
                             $_SESSION["id"] = $id;
                             $_SESSION["email"] = $email;
-
                             // Redirect user to welcome page
-                            header("location: admin_side.html");
+                            header("location: admin_side.php");
+                            exit();
                         } else {
                             // Password is not valid, display an error message
                             echo "<div class='alert alert-danger'>Invalid password.</div>";
@@ -96,7 +96,7 @@ mysqli_close($conn);
                         <h3 class="text-center text-uppercase">Admin LOGIN</h3>
                     </div>
                     <div class="card-body text-white">
-                        <form action="login_form.php" method="post">
+                        <form action="login.php" method="post">
                             <div class="mb-3">
                                 <label for="email" class="form-label">Email</label>
                                 <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email" required>
@@ -113,7 +113,7 @@ mysqli_close($conn);
                             <div class="mb-3 w-100">
                                 <div class="container">
                                     <div class="row justify-content-end">
-                                        <input type="submit" class="btn w-25 me-3 text-uppercase text-white" value="Register"></input>
+                                        <input type="submit" class="btn w-25 me-3 text-uppercase text-white" value="login"></input>
                                     </div>
                                 </div>
                             </div>

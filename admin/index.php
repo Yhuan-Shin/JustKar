@@ -28,8 +28,9 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
         $sql = "INSERT INTO user (email, password) VALUES ('$email', '$hash')";
         try{
             mysqli_query($conn, $sql);
+            header("Location: login.php");
             echo"<div class='alert alert-success'>Registered successful!</div>";
-            header("Location: login_form.php");
+
             exit();
            }
            catch(Exception $e){

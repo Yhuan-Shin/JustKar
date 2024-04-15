@@ -4,15 +4,11 @@
     padding: 0;
     
   }
-<<<<<<< HEAD
   .custom-container{
     background-color: rgba(255, 255, 255, 0.3); 
     color: rgba(255, 255, 255, 0.5);
 
   }
-=======
-
->>>>>>> 2f5771273b05810c960828dc4bf40ccb4c365d98
   body{
       background-image: url("images/background.jpg");
       height: 100%;

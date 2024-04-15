@@ -4,6 +4,41 @@
     padding: 0;
     
   }
+  .background{
+    background-color: rgba(255, 255, 255, 0.8); 
+    color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    color: #353838;
+  }
+  .maintenance{
+    background-image: url("images/1.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  .installation{
+    background-image: url("images/2.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+  }
+  .supply{
+    background-image: url("images/3.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+  }
+  .col-custom{
+    background-color:rgb(220,53,69); 
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+  }
   .mySlides {
     display:none; 
     height: 300px;
@@ -16,12 +51,6 @@
     transform: scale(1.05);
     transition: transform 0.6s ease;
 }
-  body{
-      height: 100%;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-    }
     /* navbar hover */
     .navbar-nav .nav-link {
       position: relative; 

@@ -10,29 +10,6 @@
     border-radius: 10px;
     color: #353838;
   }
-  .maintenance{
-    background-image: url("images/1.jpg");
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
-  }
-  .installation{
-    background-image: url("images/2.jpg");
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
-
-  }
-  .supply{
-    background-image: url("images/3.jpg");
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
-
-  }
   .col-custom{
     background-color:rgb(220,53,69); 
     width: 100px;
@@ -105,12 +82,7 @@
       }
     }
     /* ABOUT HTML */
-   .main-container{
-     background-color: white;
-     width: 100%;
-     height: 100%;
-     padding: 10px;
-   }
+ 
    .custom-col{
     background-color: gray;
     width: 100px;

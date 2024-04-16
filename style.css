@@ -15,6 +15,7 @@
     width: 100px;
     height: auto;
     border-radius: 10px;
+    border: solid white 2px;
   }
   .mySlides {
     display:none; 
